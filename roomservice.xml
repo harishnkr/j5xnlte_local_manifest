@@ -7,6 +7,6 @@ revision="lineage-17.1" />
 
 
  <!-- Galaxy J5 (2016) -->
-  <project path="device/samsung/j5xnlte" name="harishnkr/j5xnlte" groups="device" remote="harishnkr" revision="lineage-17.1"/>
+  <project path="device/samsung/j5xnlte" name="harishnkr/android_device_samsung_j5xnlte" groups="device" remote="harishnkr" revision="lineage-17.1"/>
 
 </manifest>
