@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="harishnkr"
+           fetch="https://github.com"
+revision="lineage-17.1" />
+
+
+ <!-- Galaxy J5 (2016) -->
+  <project path="device/samsung/j5xnlte" name="harishnkr/j5xnlte" groups="device" remote="harishnkr" revision="lineage-17.1"/>
+
+</manifest>
