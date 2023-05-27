@@ -9,7 +9,10 @@ revision="lineage-17.1" />
  <!-- Galaxy J5 (2016) device tree -->
   <project path="device/samsung/j5xnlte" name="harishnkr/android_device_samsung_j5xnlte" groups="device" remote="harishnkr" revision="lineage-17.1"/>
   
-  <!-- Common Samsung MSM8916 Kernel -->
+ <!-- Common Samsung MSM8916 Kernel -->
   <project path="kernel/samsung/msm8916" name="harishnkr/android_kernel_samsung_msm8916" remote="harishnkr" revision="lineage-17.1"/>
+  
+ <!-- Common qcom tree -->  
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-17.1"/>
   
  </manifest>
