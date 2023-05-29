@@ -15,6 +15,6 @@ revision="lineage-17.1" />
  <!-- Common qcom tree -->  
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-17.1"/>
   
- z<!-- Samsung Hardware Repo -->
+ <!-- Samsung Hardware Repo -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/> 
  </manifest>
