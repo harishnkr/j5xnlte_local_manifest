@@ -42,7 +42,7 @@ revision="lineage-17.1" />
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   
  <!-- Galaxy J5 (2016) device tree -->
-  <project path="device/samsung/j5xnlte" name="harishnkr/android_device_samsung_j5xnlte" groups="device" remote="harishnkr" revision="lineage-17.1"/>
+  <project path="device/samsung/j5xnlte" name="harishnkr/android_device_samsung_j5xnlte" groups="device" remote="harishnkr" revision="los17.1"/>
   
  <!-- Dependencies -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-17.1"/>
