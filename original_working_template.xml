@@ -4,6 +4,10 @@
   <remote  name="harishnkr"
            fetch="https://github.com"
            revision="lineage-17.1" />
+  
+  <remote  name="Galaxy-MSM8916"
+           fetch="https://github.com"
+           revision="lineage-17.1" />
 
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/car"/>
@@ -63,8 +67,8 @@
  
 
  <!-- Galaxy J5 (2016) -->
-  <project path="device/samsung/j5x-common" name="Galaxy-MSM8916/android_device_samsung_j5x-common" groups="device" remote="harishnkr"/>
-  <project path="device/samsung/j5xnlte" name="Galaxy-MSM8916/android_device_samsung_j5xnlte" groups="device" remote="harishnkr"/>
+  <project path="device/samsung/j5x-common" name="harishnkr/android_device_samsung_j5x-common" groups="device" remote="harishnkr" revision="lineage-17.1"/>
+  <project path="device/samsung/j5xnlte" name="harishnkr/android_device_samsung_j5xnlte" groups="device" remote="harishnkr" revision="lineage-17.1"/>
   
 
 </manifest>
