@@ -3,11 +3,11 @@
 
   <remote  name="harishnkr"
            fetch="https://github.com"
-           revision="lineage-17.1" />
+           revision="lineage-18.1" />
   
   <remote  name="Galaxy-MSM8916"
            fetch="https://github.com"
-           revision="lineage-17.1" />
+           revision="lineage-18.1" />
 
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/car"/>
@@ -41,24 +41,24 @@
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
 
  <!-- Samsung MSM8916 Common Repos -->
-  <project path="device/samsung/msm8916-common" name="harishnkr/android_device_samsung_msm8916-common" groups="device" remote="harishnkr"  revision="lineage-17.1"/>
-  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-17.1"/>
+  <project path="device/samsung/msm8916-common" name="harishnkr/android_device_samsung_msm8916-common" groups="device" remote="harishnkr"  revision="lineage-18.1"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-18.1"/>
 
  <!-- Samsung Hardware Repo -->
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1"/>
 
  <!-- Common Samsung MSM8916 Kernel -->
-  <project path="kernel/samsung/msm8916" name="harishnkr/android_kernel_samsung_msm8916" remote="harishnkr" revision="lineage-17.1"/>
+  <project path="kernel/samsung/msm8916" name="harishnkr/android_kernel_samsung_msm8916" remote="harishnkr" revision="lineage-18.1"/>
 
  <!-- Vendor Trees (for all devices) -->
-  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"  revision="lineage-17.1"/>
+  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"  revision="lineage-18.1"/>
 
  <!-- Qcom audio  -->
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8916/audio" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8916" remote="Galaxy-MSM8916"/>
+  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8916" remote="github"/>
 
  <!-- Dependencies -->
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-17.1"/>
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-18.1"/>
 
 
  <!-- arm-eabi-7.2 -->
@@ -67,7 +67,7 @@
  
 
  <!-- Galaxy J5 (2016) -->
-  <project path="device/samsung/j5x-common" name="harishnkr/android_device_samsung_j5x-common" groups="device" remote="harishnkr" revision="lineage-17.1"/>
+  <project path="device/samsung/j5x-common" name="harishnkr/android_device_samsung_j5x-common" groups="device" remote="harishnkr" revision="lineage-18.1"/>
   <project path="device/samsung/j5xnlte" name="harishnkr/android_device_samsung_j5xnlte" groups="device" remote="harishnkr" revision="lineage-17.1"/>
   
 
