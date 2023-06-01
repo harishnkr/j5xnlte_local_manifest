@@ -61,7 +61,9 @@
  <!-- arm-eabi-7.2 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="harishnkr/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="harishnkr" revision="master"/>
 
- 
+ <!-- sepolicy-legacy -->
+  <project path="device/qcom/sepolicy-legacy" name="harishnkr/device_qcom_sepolicy-legacy" remote="harishnkr" revision="lineage-19.1"/>
+
 
  <!-- Galaxy J5 (2016) -->
   <project path="device/samsung/j5x-common" name="harishnkr/android_device_samsung_j5x-common" groups="device" remote="harishnkr" revision="lineage-19.1"/>
